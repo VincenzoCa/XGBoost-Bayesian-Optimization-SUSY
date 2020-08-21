@@ -1,6 +1,6 @@
 # SUSY with XGBoost and Bayesian Optimization
 
-The goal of this project is to optimize [**XGBoost**](https://xgboost.readthedocs.io/en/latest/index.html#) hyperparameters in the [supersymmetry (SUSY)](https://archive.ics.uci.edu/ml/datasets/SUSY#) dataset, first introduced by [1402.4735](https://arxiv.org/pdf/1402.4735.pdf), using [**Ax**](https://ax.dev/), the new open-source AI framework launched by Facebook in 2019. 
+The goal of this project is to optimize [**XGBoost**](https://xgboost.readthedocs.io/en/latest/index.html#) hyperparameters in the [supersymmetry (SUSY) dataset](https://archive.ics.uci.edu/ml/datasets/SUSY#), first introduced by [1402.4735](https://arxiv.org/pdf/1402.4735.pdf), using [**Ax**](https://ax.dev/), the new open-source AI framework launched by Facebook in 2019. 
 
 In this project, `Ax` is used for Bayesian hyperparameter optimization.
 [Bayesian optimization](https://en.wikipedia.org/wiki/Bayesian_optimization) in `Ax` is powered by `BoTorch`, a modern library for Bayesian optimization research built on `PyTorch`.
